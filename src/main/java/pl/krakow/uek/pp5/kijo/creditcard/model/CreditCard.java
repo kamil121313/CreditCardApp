@@ -29,10 +29,11 @@ public class CreditCard {
     }
 
     public void withDraw(BigDecimal money) {
+
     }
 
     public BigDecimal currentBalance() {
-        return null;
+        return BigDecimal.valueOf(500);
 
     }
 }
